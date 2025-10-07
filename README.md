@@ -89,17 +89,22 @@ graph-visualizer/
 🧩 How It Works
 
 ->GraphCanvas.jsx
+
    Handles interactive graph drawing using SVG.
    Supports dragging, adding, deleting, and edge creation.
 
 ->AlgorithmPanel.jsx
+
    Runs algorithms, animates traversals, and logs each visited node.
+   
    Highlights nodes via React state updates (highlight).
 
 ->Controls.jsx
+
    Lets users choose modes — add node, add edge, delete, or select.
 
 ->styles.css
+
    Defines the entire glassmorphic UI and animations for traversal & cycles.
 
 🧠 Algorithm Animations
