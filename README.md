@@ -5,7 +5,7 @@ It lets users create, edit, and visualize directed/undirected and weighted/unwei
 
 🌐 Live Demo
 
-🔗 https://graph-visualizer-yourname.vercel.app
+🔗 https://shubdhamija.github.io/graph-visualizer/
 
 (Replace with your actual deployed URL)
 
