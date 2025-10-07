@@ -22,33 +22,33 @@ Deployment	Vercel
 
 🧱 Graph Editor
 
-Add, drag, or delete nodes and edges
+1. Add, drag, or delete nodes and edges
 
-Toggle Directed / Undirected and Weighted / Unweighted edges
+2. Toggle Directed / Undirected and Weighted / Unweighted edges
 
-Nodes are automatically numbered in ascending order
+3. Nodes are automatically numbered in ascending order
 
 ⚙️ Algorithms Implemented
 
-Breadth-First Search (BFS) — animated level-order traversal
+1. Breadth-First Search (BFS) — animated level-order traversal
 
-Depth-First Search (DFS) — recursive visual traversal
+2. Depth-First Search (DFS) — recursive visual traversal
 
-Dijkstra’s Algorithm — computes shortest path weights
+3. Dijkstra’s Algorithm — computes shortest path weights
 
-Topological Sort — verifies and orders DAGs
+4. Topological Sort — verifies and orders DAGs
 
-Cycle Detection — highlights cycles dynamically (red-glow nodes 🔴)
+5. Cycle Detection — highlights cycles dynamically (red-glow nodes 🔴)
 
 🎨 UI & Experience
 
-Clean glassmorphism design with shadows & gradients
+1. Clean glassmorphism design with shadows & gradients
 
-Live traversal logs displayed beside visualization
+2. Live traversal logs displayed beside visualization
 
-Smooth animations and glowing highlights
+3. Smooth animations and glowing highlights
 
-Graph data persists across refreshes via LocalStorage
+4. Graph data persists across refreshes via LocalStorage
 
 🚀 Quick Start
 ```
@@ -88,19 +88,19 @@ graph-visualizer/
 ```
 🧩 How It Works
 
-GraphCanvas.jsx
-Handles interactive graph drawing using SVG.
-Supports dragging, adding, deleting, and edge creation.
+->GraphCanvas.jsx
+   Handles interactive graph drawing using SVG.
+   Supports dragging, adding, deleting, and edge creation.
 
-AlgorithmPanel.jsx
-Runs algorithms, animates traversals, and logs each visited node.
-Highlights nodes via React state updates (highlight).
+->AlgorithmPanel.jsx
+   Runs algorithms, animates traversals, and logs each visited node.
+   Highlights nodes via React state updates (highlight).
 
-Controls.jsx
-Lets users choose modes — add node, add edge, delete, or select.
+->Controls.jsx
+   Lets users choose modes — add node, add edge, delete, or select.
 
-styles.css
-Defines the entire glassmorphic UI and animations for traversal & cycles.
+->styles.css
+   Defines the entire glassmorphic UI and animations for traversal & cycles.
 
 🧠 Algorithm Animations
 Algorithm	Node Highlight Color
