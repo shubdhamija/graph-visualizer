@@ -10,14 +10,15 @@ It lets users create, edit, and visualize directed/undirected and weighted/unwei
 (Replace with your actual deployed URL)
 
 🛠️ Tech Stack
-Layer	Technology
-Frontend Framework	React (Vite)
-Language	JavaScript (ES6)
-Visualization	SVG
-Styling	CSS (Glassmorphism + Animations)
-State Management	React Hooks (useState, useEffect)
-Data Storage	LocalStorage
-Deployment	Vercel
+1. Layer	Technology
+2. Frontend Framework	React (Vite)
+3. Language	JavaScript (ES6)
+4. Visualization	SVG
+5. Styling	CSS (Glassmorphism + Animations)
+6. State Management	React Hooks (useState, useEffect)
+7. Data Storage	LocalStorage
+8. Deployment	Vercel
+   
 ✨ Features
 
 🧱 Graph Editor
