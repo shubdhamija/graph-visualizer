@@ -51,6 +51,7 @@ Smooth animations and glowing highlights
 Graph data persists across refreshes via LocalStorage
 
 🚀 Quick Start
+```
 # Clone repository
 git clone https://github.com/<your-username>/graph-visualizer.git
 cd graph-visualizer
@@ -60,11 +61,12 @@ npm install
 
 # Run development server
 npm run dev
-
+```
 
 Then open http://localhost:5173/
  in your browser.
 
+```
 📂 Project Structure
 graph-visualizer/
 ├── public/
@@ -83,7 +85,7 @@ graph-visualizer/
 │       └── topoSort.js
 ├── package.json
 └── vite.config.js
-
+```
 🧩 How It Works
 
 GraphCanvas.jsx
